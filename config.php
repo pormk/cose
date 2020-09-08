@@ -7,7 +7,7 @@
 	// return the application directory name.
 	define('ROOT_DIR_NAME' , basename(ROOT)); 
 
-	define('SITE_NAME' , "pj_a");
+	define('SITE_NAME' , "CoSeBaby");
 	
 	
 	// Get Site Address Dynamically
@@ -78,13 +78,13 @@
 	define('DEFAULT_EMAIL_ACCOUNT_NAME','');
 	
 	// Database Configuration Settings
-	define('DB_HOST','localhost');
-	define('DB_USERNAME','root');
-	define('DB_PASSWORD','');
-	define('DB_NAME','pj_a');
+	define('DB_HOST','sh4ob67ph9l80v61.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+	define('DB_USERNAME','vc81ekqg6vq3ne0m');
+	define('DB_PASSWORD','ouxzptvq6bz82e41');
+	define('DB_NAME','rdqcnkhpb9oyio86');
 	define('DB_TYPE','mysql');
 	
-	define('DB_PORT',''); //You can leave empty if using default.
+	define('DB_PORT','3306'); //You can leave empty if using default.
 	
 	define('DB_CHARSET','utf8');
 	
@@ -96,6 +96,9 @@
 	define('USER_NAME',(isset($_SESSION[APP_ID.'user_data']) ? $_SESSION[APP_ID.'user_data']['username'] : null ));
 	define('USER_EMAIL',(isset($_SESSION[APP_ID.'user_data']) ? $_SESSION[APP_ID.'user_data']['email'] : null ));
 	define('USER_PHOTO',(isset($_SESSION[APP_ID.'user_data']) ? $_SESSION[APP_ID.'user_data']['photo'] : null ));
+	
+	
+	
 	
 	
 	
